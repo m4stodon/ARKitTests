@@ -9,21 +9,49 @@
 /* Begin PBXBuildFile section */
 		CE02022F20053D0700B76906 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE02022E20053D0700B76906 /* AppDelegate.swift */; };
 		CE02023120053D0700B76906 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = CE02023020053D0700B76906 /* art.scnassets */; };
-		CE02023320053D0700B76906 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE02023220053D0700B76906 /* ViewController.swift */; };
+		CE02023320053D0700B76906 /* ARKitSceneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE02023220053D0700B76906 /* ARKitSceneViewController.swift */; };
 		CE02023620053D0700B76906 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE02023420053D0700B76906 /* Main.storyboard */; };
-		CE02023820053D0700B76906 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE02023720053D0700B76906 /* Assets.xcassets */; };
 		CE02023B20053D0700B76906 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE02023920053D0700B76906 /* LaunchScreen.storyboard */; };
+		CEC50D01200B5736000CA7F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEC50D00200B5736000CA7F9 /* Assets.xcassets */; };
+		CEC50D05200EB77C000CA7F9 /* NodeConfigPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC50D04200EB77C000CA7F9 /* NodeConfigPanel.swift */; };
+		CEC50D07200FF187000CA7F9 /* SceneObjectFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC50D06200FF187000CA7F9 /* SceneObjectFactory.swift */; };
+		CEC50D09200FF1C5000CA7F9 /* CoordinatePlaneObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC50D08200FF1C5000CA7F9 /* CoordinatePlaneObject.swift */; };
+		CEC50D0D200FF275000CA7F9 /* SceneLightFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC50D0C200FF275000CA7F9 /* SceneLightFactory.swift */; };
+		CEC50D0F200FF2EC000CA7F9 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC50D0E200FF2EC000CA7F9 /* UIColor.swift */; };
+		CEC50D13200FF37A000CA7F9 /* SolarSystemScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC50D12200FF37A000CA7F9 /* SolarSystemScene.swift */; };
+		CEC50D15200FF53D000CA7F9 /* SceneBorderCatcherObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC50D14200FF53D000CA7F9 /* SceneBorderCatcherObject.swift */; };
+		CED2F51C201520D600A17ACE /* SCNNodeConfigurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED2F51B201520D600A17ACE /* SCNNodeConfigurable.swift */; };
+		CED2F52020167DA400A17ACE /* SolarSystemSceneController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED2F51F20167DA400A17ACE /* SolarSystemSceneController.swift */; };
+		CED2F52220167DBA00A17ACE /* ConfigurableObjectsSceneController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED2F52120167DBA00A17ACE /* ConfigurableObjectsSceneController.swift */; };
+		CED2F52420167DD600A17ACE /* ComputerVisionSceneController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED2F52320167DD600A17ACE /* ComputerVisionSceneController.swift */; };
+		CED2F5262017D30500A17ACE /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = CED2F5252017D30500A17ACE /* Inceptionv3.mlmodel */; };
+		CED2F528201DC14700A17ACE /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED2F527201DC14700A17ACE /* MenuViewController.swift */; };
+		CED2F52A201DC22400A17ACE /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED2F529201DC22400A17ACE /* MenuController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CE02022B20053D0700B76906 /* ARKitTestApp1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARKitTestApp1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE02022E20053D0700B76906 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE02023020053D0700B76906 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
-		CE02023220053D0700B76906 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE02023220053D0700B76906 /* ARKitSceneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARKitSceneViewController.swift; sourceTree = "<group>"; };
 		CE02023520053D0700B76906 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CE02023720053D0700B76906 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE02023A20053D0700B76906 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE02023C20053D0700B76906 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEC50D00200B5736000CA7F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEC50D04200EB77C000CA7F9 /* NodeConfigPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NodeConfigPanel.swift; sourceTree = "<group>"; };
+		CEC50D06200FF187000CA7F9 /* SceneObjectFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneObjectFactory.swift; sourceTree = "<group>"; };
+		CEC50D08200FF1C5000CA7F9 /* CoordinatePlaneObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatePlaneObject.swift; sourceTree = "<group>"; };
+		CEC50D0C200FF275000CA7F9 /* SceneLightFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneLightFactory.swift; sourceTree = "<group>"; };
+		CEC50D0E200FF2EC000CA7F9 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		CEC50D12200FF37A000CA7F9 /* SolarSystemScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolarSystemScene.swift; sourceTree = "<group>"; };
+		CEC50D14200FF53D000CA7F9 /* SceneBorderCatcherObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneBorderCatcherObject.swift; sourceTree = "<group>"; };
+		CED2F51B201520D600A17ACE /* SCNNodeConfigurable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCNNodeConfigurable.swift; sourceTree = "<group>"; };
+		CED2F51F20167DA400A17ACE /* SolarSystemSceneController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolarSystemSceneController.swift; sourceTree = "<group>"; };
+		CED2F52120167DBA00A17ACE /* ConfigurableObjectsSceneController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurableObjectsSceneController.swift; sourceTree = "<group>"; };
+		CED2F52320167DD600A17ACE /* ComputerVisionSceneController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComputerVisionSceneController.swift; sourceTree = "<group>"; };
+		CED2F5252017D30500A17ACE /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
+		CED2F527201DC14700A17ACE /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		CED2F529201DC22400A17ACE /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +86,75 @@
 			children = (
 				CE02022E20053D0700B76906 /* AppDelegate.swift */,
 				CE02023020053D0700B76906 /* art.scnassets */,
-				CE02023220053D0700B76906 /* ViewController.swift */,
+				CED2F51E20167C6F00A17ACE /* Controllers */,
+				CED2F51D20167C6500A17ACE /* Views */,
+				CEC50D10200FF309000CA7F9 /* Extensions */,
+				CEC50D0A200FF1DC000CA7F9 /* Scene */,
 				CE02023420053D0700B76906 /* Main.storyboard */,
-				CE02023720053D0700B76906 /* Assets.xcassets */,
+				CED2F5252017D30500A17ACE /* Inceptionv3.mlmodel */,
 				CE02023920053D0700B76906 /* LaunchScreen.storyboard */,
 				CE02023C20053D0700B76906 /* Info.plist */,
+				CEC50D00200B5736000CA7F9 /* Assets.xcassets */,
 			);
 			path = ARKitTestApp1;
+			sourceTree = "<group>";
+		};
+		CEC50D0A200FF1DC000CA7F9 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				CEC50D11200FF338000CA7F9 /* ComposedScenes */,
+				CEC50D0B200FF1F9000CA7F9 /* Objects */,
+				CEC50D06200FF187000CA7F9 /* SceneObjectFactory.swift */,
+				CEC50D0C200FF275000CA7F9 /* SceneLightFactory.swift */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		CEC50D0B200FF1F9000CA7F9 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				CED2F51B201520D600A17ACE /* SCNNodeConfigurable.swift */,
+				CEC50D04200EB77C000CA7F9 /* NodeConfigPanel.swift */,
+				CEC50D08200FF1C5000CA7F9 /* CoordinatePlaneObject.swift */,
+				CEC50D14200FF53D000CA7F9 /* SceneBorderCatcherObject.swift */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
+		CEC50D10200FF309000CA7F9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CEC50D0E200FF2EC000CA7F9 /* UIColor.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CEC50D11200FF338000CA7F9 /* ComposedScenes */ = {
+			isa = PBXGroup;
+			children = (
+				CEC50D12200FF37A000CA7F9 /* SolarSystemScene.swift */,
+			);
+			path = ComposedScenes;
+			sourceTree = "<group>";
+		};
+		CED2F51D20167C6500A17ACE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CE02023220053D0700B76906 /* ARKitSceneViewController.swift */,
+				CED2F527201DC14700A17ACE /* MenuViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CED2F51E20167C6F00A17ACE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CED2F51F20167DA400A17ACE /* SolarSystemSceneController.swift */,
+				CED2F52120167DBA00A17ACE /* ConfigurableObjectsSceneController.swift */,
+				CED2F52320167DD600A17ACE /* ComputerVisionSceneController.swift */,
+				CED2F529201DC22400A17ACE /* MenuController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,7 +218,7 @@
 			files = (
 				CE02023120053D0700B76906 /* art.scnassets in Resources */,
 				CE02023B20053D0700B76906 /* LaunchScreen.storyboard in Resources */,
-				CE02023820053D0700B76906 /* Assets.xcassets in Resources */,
+				CEC50D01200B5736000CA7F9 /* Assets.xcassets in Resources */,
 				CE02023620053D0700B76906 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,8 +230,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE02023320053D0700B76906 /* ViewController.swift in Sources */,
+				CED2F52220167DBA00A17ACE /* ConfigurableObjectsSceneController.swift in Sources */,
+				CED2F528201DC14700A17ACE /* MenuViewController.swift in Sources */,
+				CEC50D0D200FF275000CA7F9 /* SceneLightFactory.swift in Sources */,
+				CED2F52020167DA400A17ACE /* SolarSystemSceneController.swift in Sources */,
+				CEC50D15200FF53D000CA7F9 /* SceneBorderCatcherObject.swift in Sources */,
+				CEC50D07200FF187000CA7F9 /* SceneObjectFactory.swift in Sources */,
+				CED2F52420167DD600A17ACE /* ComputerVisionSceneController.swift in Sources */,
+				CED2F51C201520D600A17ACE /* SCNNodeConfigurable.swift in Sources */,
+				CED2F52A201DC22400A17ACE /* MenuController.swift in Sources */,
+				CE02023320053D0700B76906 /* ARKitSceneViewController.swift in Sources */,
 				CE02022F20053D0700B76906 /* AppDelegate.swift in Sources */,
+				CEC50D05200EB77C000CA7F9 /* NodeConfigPanel.swift in Sources */,
+				CEC50D13200FF37A000CA7F9 /* SolarSystemScene.swift in Sources */,
+				CEC50D09200FF1C5000CA7F9 /* CoordinatePlaneObject.swift in Sources */,
+				CEC50D0F200FF2EC000CA7F9 /* UIColor.swift in Sources */,
+				CED2F5262017D30500A17ACE /* Inceptionv3.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,7 +386,7 @@
 				DEVELOPMENT_TEAM = ZXLCAVT38S;
 				INFOPLIST_FILE = ARKitTestApp1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.YourMac.ARKitTestApp1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.YourMac.ARKitTest123;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -297,7 +401,7 @@
 				DEVELOPMENT_TEAM = ZXLCAVT38S;
 				INFOPLIST_FILE = ARKitTestApp1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.YourMac.ARKitTestApp1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.YourMac.ARKitTest123;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

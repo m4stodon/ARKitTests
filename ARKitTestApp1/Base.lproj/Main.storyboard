@@ -1,27 +1,108 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" systemVersion="17A278a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BV1-FR-VrT">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tXr-a1-R10">
+        <!--Kit Scene View Controller-->
+        <scene sceneID="xrc-xb-r0c">
             <objects>
-                <viewController id="BV1-FR-VrT" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
-                    <arscnView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="BrB-h1-WRS">
+                <viewController storyboardIdentifier="ARKitSceneViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Lqk-xF-09J" customClass="ARKitSceneViewController" customModule="ARKitTestApp1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="h5o-tz-Z4N">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    </arscnView>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="5s7-d4-KBL"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qUZ-Gm-5fL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="135" y="834"/>
+        </scene>
+        <!--Menu View Controller-->
+        <scene sceneID="IX0-Yp-Y8d">
+            <objects>
+                <viewController storyboardIdentifier="MenuViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="P35-qM-8DW" customClass="MenuViewController" customModule="ARKitTestApp1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Cmv-dL-eXD">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="ugD-kz-c5L">
+                                <rect key="frame" x="87.5" y="223.5" width="200" height="240"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v3w-gh-DKI">
+                                        <rect key="frame" x="0.0" y="0.0" width="200" height="60"/>
+                                        <color key="backgroundColor" red="0.32269305161067419" green="0.5" blue="0.60271537303924561" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="200" id="7NX-Oz-iOw"/>
+                                            <constraint firstAttribute="height" constant="60" id="mM7-fF-jBE"/>
+                                        </constraints>
+                                        <state key="normal" title="Solar system example">
+                                            <color key="titleColor" red="0.96692618643380635" green="1" blue="0.94613790900737982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="showSolarSystemExample:" destination="P35-qM-8DW" eventType="touchUpInside" id="Hu5-9c-wNj"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nfE-kv-akB">
+                                        <rect key="frame" x="0.0" y="90" width="200" height="60"/>
+                                        <color key="backgroundColor" red="0.32269305161067419" green="0.5" blue="0.60271537303924561" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="60" id="oNw-kz-BeT"/>
+                                        </constraints>
+                                        <state key="normal" title="Configurable objects">
+                                            <color key="titleColor" red="0.96692618643380635" green="1" blue="0.94613790900737982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="showConfigurableObjectsExample:" destination="P35-qM-8DW" eventType="touchUpInside" id="g29-0L-1wC"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9lW-Ib-XH3">
+                                        <rect key="frame" x="0.0" y="180" width="200" height="60"/>
+                                        <color key="backgroundColor" red="0.32269305161067419" green="0.5" blue="0.60271537303924561" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="60" id="Mv6-Qv-8wE"/>
+                                        </constraints>
+                                        <state key="normal" title="CoreML object vision">
+                                            <color key="titleColor" red="0.96692618643380635" green="1" blue="0.94613790900737982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="showCoreMLVisionExample:" destination="P35-qM-8DW" eventType="touchUpInside" id="3dJ-7q-jMi"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ARKit Tests" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="05M-Hs-fwg">
+                                <rect key="frame" x="100.5" y="45" width="174.5" height="36"/>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ugD-kz-c5L" firstAttribute="centerX" secondItem="D4W-Gy-EwP" secondAttribute="centerX" id="BZA-3H-GZz"/>
+                            <constraint firstItem="05M-Hs-fwg" firstAttribute="centerX" secondItem="D4W-Gy-EwP" secondAttribute="centerX" id="FHp-Gh-Z8m"/>
+                            <constraint firstItem="05M-Hs-fwg" firstAttribute="top" secondItem="D4W-Gy-EwP" secondAttribute="top" constant="25" id="GWL-ko-xnp"/>
+                            <constraint firstItem="ugD-kz-c5L" firstAttribute="centerY" secondItem="D4W-Gy-EwP" secondAttribute="centerY" id="xSS-ad-XR0"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="D4W-Gy-EwP"/>
+                    </view>
                     <connections>
-                        <outlet property="sceneView" destination="BrB-h1-WRS" id="5nT-qQ-ynl"/>
+                        <outlet property="configurableObjectsExampleButton" destination="nfE-kv-akB" id="VWd-uB-5qX"/>
+                        <outlet property="coreMLVisionExampleButton" destination="9lW-Ib-XH3" id="vJD-p7-HFw"/>
+                        <outlet property="solarSystemExampleButton" destination="v3w-gh-DKI" id="Ioy-wI-bHR"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="SZV-WD-TEh" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xRH-AV-Hox" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-697" y="835"/>
         </scene>
     </scenes>
 </document>
